@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.friends-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: lightpink;
+}
+
+.friends-card{
+  width: 300px;
+  border: black 1px solid;
+  margin: 2%;
+  background: lightcyan;
+}
+
+.load {
+  background-color: #d0c5bb;
+  padding: 24px 58px;
+  width: 539px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.ing {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #204963;
+}
